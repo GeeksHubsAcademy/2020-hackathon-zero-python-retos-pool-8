@@ -183,3 +183,9 @@ def test_direction_snake_RIGHT():
 
     assert(snake.direction == "RIGHT")
     assert(snake.position[0] == (position_o[0] + 10))
+
+
+   #if __name__ == '__main__':
+    #     test_dead_in_top()
+        
+
