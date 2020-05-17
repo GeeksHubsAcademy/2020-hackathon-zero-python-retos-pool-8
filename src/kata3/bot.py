@@ -36,7 +36,7 @@ def error(update, context):
 def main():
     """Inicio del Bot"""
     #Colocamos el Token creado por FatherBot
-    updater = Updater(token="1178720459:AAEPgiDpl8sYHXq_DxLTpTONxWADOxGH6LE",use_context=True) #Hay que pedirle un token a Telegram para meterlo en el Updater
+    updater = Updater(token="XXXXXXXXXXXXXXXXXXXXXXXXXX",use_context=True) #Hay que pedirle un token a Telegram para meterlo en el Updater
    
     # Es el Registro de Comandos a través del dispartcher
     dp = updater.dispatcher
