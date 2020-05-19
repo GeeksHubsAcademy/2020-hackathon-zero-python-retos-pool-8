@@ -28,3 +28,14 @@ def test_contraseña_contiene_letras_simbolos():
 def test_contraseña_compleja():
 	characters = string.ascii_letters + string.digits + string.punctuation
 	assert(chr in RandomPasswordGenerator(15) for chr in characters)
+
+# if __name__ == '__main__':
+# 	test_longitud_15()
+# 	test_longitud_10()
+# 	test_longitud_8()
+# 	test_contraseña_contiene_letras()
+# 	test_contraseña_contiene_numeros()
+# 	test_contraseña_compleja()
+# 	test_contraseña_contiene_letras_simbolos()
+# 	test_contraseña_contiene_caracteres_especiales()
+# 	test_contraseña_contiene_numeros()

@@ -32,3 +32,16 @@ def test_papel_vs_piedra():
 def test_tijeras_vs_papel():
 	assert(quienGana('Tijeras', 'Papel') == 'Ganaste!')
     
+"""
+if __name__ == '__main__':
+	test_tijeras_vs_papel()
+	test_papel_vs_piedra()	
+	test_piedra_vs_tijeras()
+	test_tijeras_vs_piedra()
+	test_papel_vs_tijeras()
+	test_piedra_vs_papel()
+	test_tijeras_vs_tijeras()
+	test_papel_vs_papel()
+	test_piedra_vs_piedra()
+	test_no_sensible_minusculas()
+	"""

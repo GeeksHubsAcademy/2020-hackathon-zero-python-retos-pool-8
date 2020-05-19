@@ -34,3 +34,13 @@ def test_command_alreves():
     update.message.text = 'hola'
 
     assert(alreves(update, '') == 'aloh')
+
+
+"""    
+if __name__ == '__main__':
+    
+    test_command_mayus()
+    test_command_start()
+    test_command_help()
+    test_command_alreves()
+ """   
