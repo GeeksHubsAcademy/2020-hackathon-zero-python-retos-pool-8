@@ -2,6 +2,9 @@ import pygame, sys, time, random
 from pygame.locals import *
 
 
+import os
+os.environ["SDL_VIDEODRIVER"] = "dummy"
+
 screen_width = 500
 screen_height = 500
 
