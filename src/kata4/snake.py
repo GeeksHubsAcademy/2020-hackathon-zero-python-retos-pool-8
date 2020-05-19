@@ -6,6 +6,7 @@ screen_width = 500
 screen_height = 500
 
 #pygame.init()
+#
 play_surface = pygame.display.set_mode((screen_width,screen_height))
 fps = pygame.time.Clock()
 
